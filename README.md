@@ -1,0 +1,5 @@
+tutorial 0001 = liner_regression_single_variable
+tutorial 0002 = liner_regression_multiple_variables
+tutorial 0003 = gradient_descent
+tutorial 0004 = save_model_using_Joblib_and_Pickle
+tutorial 0005 = dummy_variables_and_one_hot_encoding
