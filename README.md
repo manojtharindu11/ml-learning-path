@@ -4,3 +4,4 @@
 - tutorial 0004 = save_model_using_Joblib_and_Pickle
 - tutorial 0005 = dummy_variables_and_one_hot_encoding
 - tutorial 0006 = training_and_testing_data
+- tutorial 0007 = logistic_regression(binary_classification)
