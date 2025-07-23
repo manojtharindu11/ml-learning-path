@@ -6,3 +6,4 @@
 - tutorial 0006 = training_and_testing_data
 - tutorial 0007 = logistic_regression(binary_classification)
 - tutorial 0008 = logistic_regression(multiclass_classifcation)
+- tutorial 0009 = decision_tree
