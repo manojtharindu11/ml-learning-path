@@ -8,3 +8,4 @@
 - tutorial 0008 = logistic_regression(multiclass_classifcation)
 - tutorial 0009 = decision_tree
 - tutorial 0010 = Support_Vector_Machine_SVM
+- tutorial 0011 = Random_forest_algorithm
