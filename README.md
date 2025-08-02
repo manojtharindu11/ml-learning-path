@@ -10,3 +10,4 @@
 - tutorial 0010 = Support_Vector_Machine_SVM
 - tutorial 0011 = Random_forest_algorithm
 - tutorial 0012 = K_fold_cross_validation
+- tutorial 0013 = K_means_clustering_algorithm
