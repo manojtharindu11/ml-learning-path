@@ -11,3 +11,4 @@
 - tutorial 0011 = Random_forest_algorithm
 - tutorial 0012 = K_fold_cross_validation
 - tutorial 0013 = K_means_clustering_algorithm
+- tutorial 0014 = Native_bayes_classifier_algorithm
