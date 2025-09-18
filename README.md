@@ -1,14 +1,45 @@
 - tutorial 0001 = liner_regression_single_variable
+  - Demonstrates simple linear regression with a single variable using home prices and area data.
+  - **Algorithm:** Linear Regression (sklearn.linear_model.LinearRegression)
 - tutorial 0002 = liner_regression_multiple_variables
+  - Shows linear regression with multiple variables (features) to predict home prices.
+  - **Algorithm:** Linear Regression (Multiple Variables, sklearn.linear_model.LinearRegression)
 - tutorial 0003 = gradient_descent
+  - Explains the gradient descent optimization algorithm, applied to test scores data.
+  - **Algorithm:** Custom Gradient Descent (manual implementation)
 - tutorial 0004 = save_model_using_Joblib_and_Pickle
+  - Teaches how to save and load machine learning models using Joblib and Pickle.
+  - **Algorithm:** Model Serialization (sklearn.linear_model.LinearRegression, pickle, joblib)
 - tutorial 0005 = dummy_variables_and_one_hot_encoding
+  - Covers encoding categorical variables using dummy variables and one-hot encoding for regression.
+  - **Algorithm:** One-Hot Encoding, Dummy Variables (pandas.get_dummies)
 - tutorial 0006 = training_and_testing_data
+  - Focuses on splitting data into training and testing sets, using car prices as an example.
+  - **Algorithm:** Data Splitting (sklearn.model_selection.train_test_split)
 - tutorial 0007 = logistic_regression(binary_classification)
+  - Introduces logistic regression for binary classification, e.g., predicting insurance purchase.
+  - **Algorithm:** Logistic Regression (Binary Classification, sklearn.linear_model.LogisticRegression)
 - tutorial 0008 = logistic_regression(multiclass_classifcation)
+  - Explains multiclass classification using logistic regression, with digit recognition as an example.
+  - **Algorithm:** Logistic Regression (Multiclass Classification, sklearn.linear_model.LogisticRegression)
 - tutorial 0009 = decision_tree
+  - Demonstrates decision tree classification, e.g., predicting high salary based on features.
+  - **Algorithm:** Decision Tree Classifier (sklearn.tree.DecisionTreeClassifier)
 - tutorial 0010 = Support_Vector_Machine_SVM
+  - Introduces Support Vector Machine (SVM) for classification, using the iris dataset.
+  - **Algorithm:** Support Vector Machine (SVM, sklearn.svm.SVC)
 - tutorial 0011 = Random_forest_algorithm
+  - Shows how to use the Random Forest algorithm for classification, e.g., digit recognition.
+  - **Algorithm:** Random Forest Classifier (sklearn.ensemble.RandomForestClassifier)
 - tutorial 0012 = K_fold_cross_validation
+  - Explains K-fold cross-validation for model evaluation, using multiple classifiers.
+  - **Algorithm:** K-Fold Cross Validation (sklearn.model_selection.cross_val_score) with Logistic Regression (sklearn.linear_model.LogisticRegression), SVM (sklearn.svm.SVC), Random Forest (sklearn.ensemble.RandomForestClassifier)
 - tutorial 0013 = K_means_clustering_algorithm
+  - Demonstrates K-means clustering for unsupervised learning, e.g., clustering income data.
+  - **Algorithm:** K-Means Clustering (sklearn.cluster.KMeans)
 - tutorial 0014 = Native_bayes_classifier_algorithm_part_1
+  - Introduces the Naive Bayes classifier, applied to the Titanic dataset.
+  - **Algorithm:** Gaussian Naive Bayes (sklearn.naive_bayes.GaussianNB)
+- tutorial 0015 = Native_bayes_classifier_algorithm_part_2
+  - Continues with Naive Bayes, focusing on spam detection in messages.
+  - **Algorithm:** Multinomial Naive Bayes (sklearn.naive_bayes.MultinomialNB)
