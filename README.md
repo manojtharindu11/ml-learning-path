@@ -25,21 +25,22 @@
 - tutorial 0009 = decision_tree
   - Demonstrates decision tree classification, e.g., predicting high salary based on features.
   - **Algorithm:** Decision Tree Classifier (sklearn.tree.DecisionTreeClassifier)
-- tutorial 0010 = Support_Vector_Machine_SVM
+- tutorial 0010 = support_vector_machine_SVM
   - Introduces Support Vector Machine (SVM) for classification, using the iris dataset.
   - **Algorithm:** Support Vector Machine (SVM, sklearn.svm.SVC)
-- tutorial 0011 = Random_forest_algorithm
+- tutorial 0011 = random_forest_algorithm
   - Shows how to use the Random Forest algorithm for classification, e.g., digit recognition.
   - **Algorithm:** Random Forest Classifier (sklearn.ensemble.RandomForestClassifier)
-- tutorial 0012 = K_fold_cross_validation
+- tutorial 0012 = k_fold_cross_validation
   - Explains K-fold cross-validation for model evaluation, using multiple classifiers.
   - **Algorithm:** K-Fold Cross Validation (sklearn.model_selection.cross_val_score) with Logistic Regression (sklearn.linear_model.LogisticRegression), SVM (sklearn.svm.SVC), Random Forest (sklearn.ensemble.RandomForestClassifier)
-- tutorial 0013 = K_means_clustering_algorithm
+- tutorial 0013 = k_means_clustering_algorithm
   - Demonstrates K-means clustering for unsupervised learning, e.g., clustering income data.
   - **Algorithm:** K-Means Clustering (sklearn.cluster.KMeans)
-- tutorial 0014 = Native_bayes_classifier_algorithm_part_1
+- tutorial 0014 = native_bayes_classifier_algorithm_part_1
   - Introduces the Naive Bayes classifier, applied to the Titanic dataset.
   - **Algorithm:** Gaussian Naive Bayes (sklearn.naive_bayes.GaussianNB)
-- tutorial 0015 = Native_bayes_classifier_algorithm_part_2
+- tutorial 0015 = native_bayes_classifier_algorithm_part_2
   - Continues with Naive Bayes, focusing on spam detection in messages.
   - **Algorithm:** Multinomial Naive Bayes (sklearn.naive_bayes.MultinomialNB)
+- tutorial 0016 = hyper_parameter_tuning(GridSearchCV)
