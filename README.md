@@ -44,3 +44,5 @@
   - Continues with Naive Bayes, focusing on spam detection in messages.
   - **Algorithm:** Multinomial Naive Bayes (sklearn.naive_bayes.MultinomialNB)
 - tutorial 0016 = hyper_parameter_tuning(GridSearchCV)
+  - Demonstrates hyperparameter tuning to find optimal model parameters.
+  - **Algorithm:** Grid Search Cross Validation (sklearn.model_selection.GridSearchCV), Randomized Search Cross Validation (sklearn.model_selection.RandomizedSearchCV)
