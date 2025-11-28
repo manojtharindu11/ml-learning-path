@@ -46,3 +46,6 @@
 - tutorial 0016 = hyper_parameter_tuning(GridSearchCV)
   - Demonstrates hyperparameter tuning to find optimal model parameters.
   - **Algorithm:** Grid Search Cross Validation (sklearn.model_selection.GridSearchCV), Randomized Search Cross Validation (sklearn.model_selection.RandomizedSearchCV)
+- tutorial 0017 = L1 and L2 Regularization | Lasso, Ridge Regression
+  - Reduce the over fitting and under fitting models.
+  - **Algorithm:** L1 Regularization(Lasso), L2 Regularization(Ridge)
