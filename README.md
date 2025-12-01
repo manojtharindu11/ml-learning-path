@@ -49,3 +49,5 @@
 - tutorial 0017 = L1 and L2 Regularization | Lasso, Ridge Regression
   - Reduce the over fitting and under fitting models.
   - **Algorithm:** L1 Regularization(Lasso), L2 Regularization(Ridge)
+- tutorial0018 = k nearest neighbor's classification
+  - **Algorithm:** `from sklearn.neighbors import KNeighborsClassifier`
