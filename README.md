@@ -51,3 +51,5 @@
   - **Algorithm:** L1 Regularization(Lasso), L2 Regularization(Ridge)
 - tutorial0018 = k nearest neighbor's classification
   - **Algorithm:** `from sklearn.neighbors import KNeighborsClassifier`
+- tutorial0019 = Principal component analysis
+  - **Algorithm:** `from sklearn.decomposition import PCA`
