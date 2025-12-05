@@ -53,3 +53,5 @@
   - **Algorithm:** `from sklearn.neighbors import KNeighborsClassifier`
 - tutorial0019 = Principal component analysis
   - **Algorithm:** `from sklearn.decomposition import PCA`
+- tutorial0020 = Bagging
+  - **Algorithm:** `from sklearn.ensemble import BaggingClassifier`
