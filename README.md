@@ -22,109 +22,109 @@ pip install -r requirements.txt
 
 ### Regression
 
-- **Tutorial 0001** - Linear Regression (Single Variable)
+- **1** - Linear Regression (Single Variable)
 
   - Demonstrates simple linear regression with a single variable using home prices and area data.
   - **Algorithm:** Linear Regression (`sklearn.linear_model.LinearRegression`)
 
-- **Tutorial 0002** - Linear Regression (Multiple Variables)
+- **2** - Linear Regression (Multiple Variables)
 
   - Shows linear regression with multiple variables (features) to predict home prices.
   - **Algorithm:** Linear Regression (`sklearn.linear_model.LinearRegression`)
 
-- **Tutorial 0003** - Gradient Descent
+- **3** - Gradient Descent
 
   - Explains the gradient descent optimization algorithm, applied to test scores data.
   - **Algorithm:** Custom Gradient Descent (manual implementation)
 
-- **Tutorial 0004** - Save Model Using Joblib and Pickle
+- **4** - Save Model Using Joblib and Pickle
 
   - Teaches how to save and load machine learning models using Joblib and Pickle.
   - **Algorithm:** Model Serialization (`pickle`, `joblib`)
 
-- **Tutorial 0017** - L1 and L2 Regularization (Lasso and Ridge Regression)
+- **17** - L1 and L2 Regularization (Lasso and Ridge Regression)
   - Reduces overfitting and underfitting in regression models.
   - **Algorithm:** L1 Regularization (Lasso), L2 Regularization (Ridge)
 
 ### Data Preprocessing
 
-- **Tutorial 0005** - Dummy Variables and One-Hot Encoding
+- **5** - Dummy Variables and One-Hot Encoding
 
   - Covers encoding categorical variables using dummy variables and one-hot encoding.
   - **Algorithm:** One-Hot Encoding, Dummy Variables (`pandas.get_dummies`)
 
-- **Tutorial 0006** - Training and Testing Data
+- **6** - Training and Testing Data
   - Focuses on splitting data into training and testing sets, using car prices as an example.
   - **Algorithm:** Data Splitting (`sklearn.model_selection.train_test_split`)
 
 ### Classification - Binary & Multiclass
 
-- **Tutorial 0007** - Logistic Regression (Binary Classification)
+- **7** - Logistic Regression (Binary Classification)
 
   - Introduces logistic regression for binary classification, e.g., predicting insurance purchase.
   - **Algorithm:** Logistic Regression (`sklearn.linear_model.LogisticRegression`)
 
-- **Tutorial 0008** - Logistic Regression (Multiclass Classification)
+- **8** - Logistic Regression (Multiclass Classification)
   - Explains multiclass classification using logistic regression, with digit recognition as an example.
   - **Algorithm:** Logistic Regression (`sklearn.linear_model.LogisticRegression`)
 
 ### Tree-Based Algorithms
 
-- **Tutorial 0009** - Decision Tree
+- **9** - Decision Tree
 
   - Demonstrates decision tree classification, e.g., predicting high salary based on features.
   - **Algorithm:** Decision Tree Classifier (`sklearn.tree.DecisionTreeClassifier`)
 
-- **Tutorial 0011** - Random Forest Algorithm
+- **11** - Random Forest Algorithm
 
   - Shows how to use the Random Forest algorithm for classification, e.g., digit recognition.
   - **Algorithm:** Random Forest Classifier (`sklearn.ensemble.RandomForestClassifier`)
 
-- **Tutorial 0020** - Bagging
+- **20** - Bagging
   - Demonstrates ensemble methods using bagging for improved model performance.
   - **Algorithm:** Bagging Classifier (`sklearn.ensemble.BaggingClassifier`)
 
 ### Distance & Kernel-Based Algorithms
 
-- **Tutorial 0010** - Support Vector Machine (SVM)
+- **10** - Support Vector Machine (SVM)
 
   - Introduces Support Vector Machine (SVM) for classification, using the iris dataset.
   - **Algorithm:** Support Vector Machine (`sklearn.svm.SVC`)
 
-- **Tutorial 0018** - K-Nearest Neighbors Classification
+- **18** - K-Nearest Neighbors Classification
   - Demonstrates the KNN algorithm for classification tasks.
   - **Algorithm:** K-Nearest Neighbors (`sklearn.neighbors.KNeighborsClassifier`)
 
 ### Probabilistic Algorithms
 
-- **Tutorial 0014** - Naive Bayes Classifier (Part 1)
+- **14** - Naive Bayes Classifier (Part 1)
 
   - Introduces the Naive Bayes classifier, applied to the Titanic dataset.
   - **Algorithm:** Gaussian Naive Bayes (`sklearn.naive_bayes.GaussianNB`)
 
-- **Tutorial 0015** - Naive Bayes Classifier (Part 2)
+- **15** - Naive Bayes Classifier (Part 2)
   - Continues with Naive Bayes, focusing on spam detection in messages.
   - **Algorithm:** Multinomial Naive Bayes (`sklearn.naive_bayes.MultinomialNB`)
 
 ### Unsupervised Learning
 
-- **Tutorial 0013** - K-Means Clustering Algorithm
+- **13** - K-Means Clustering Algorithm
 
   - Demonstrates K-means clustering for unsupervised learning, e.g., clustering income data.
   - **Algorithm:** K-Means Clustering (`sklearn.cluster.KMeans`)
 
-- **Tutorial 0019** - Principal Component Analysis
+- **19** - Principal Component Analysis
   - Introduces dimensionality reduction using PCA for feature extraction.
   - **Algorithm:** Principal Component Analysis (`sklearn.decomposition.PCA`)
 
 ### Model Evaluation & Optimization
 
-- **Tutorial 0012** - K-Fold Cross Validation
+- **12** - K-Fold Cross Validation
 
   - Explains K-fold cross-validation for robust model evaluation, using multiple classifiers.
   - **Algorithm:** K-Fold Cross Validation (`sklearn.model_selection.cross_val_score`) with Logistic Regression, SVM, and Random Forest
 
-- **Tutorial 0016** - Hyperparameter Tuning (GridSearchCV)
+- **16** - Hyperparameter Tuning (GridSearchCV)
   - Demonstrates hyperparameter tuning to find optimal model parameters.
   - **Algorithm:** Grid Search CV (`sklearn.model_selection.GridSearchCV`), Randomized Search CV (`sklearn.model_selection.RandomizedSearchCV`)
 
@@ -146,7 +146,7 @@ Each tutorial folder contains:
 
 ## Topics Covered
 
-- **Regression**: Linear, Ridge, Lasso
+- **Regression**: Linear
 - **Classification**: Logistic Regression, SVM, Decision Trees, Random Forests, Naive Bayes, KNN
 - **Clustering**: K-Means
 - **Dimensionality Reduction**: PCA
